@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
+const commands = [
+  '"put Cottage at 100,100 facing north"',
+  '"place Hover car at 500,500 facing east"',
+  '"add House in the woods at 1000,1000 facing west"',
+  '"create a village with 5 cottages in a circle"',
+  '"build a racing track with hovercars"'
+];
+
 const Hero = () => {
   const [currentCommand, setCurrentCommand] = useState(0);
-
-  const commands = [
-    '"put Cottage at 100,100 facing north"',
-    '"place Hover car at 500,500 facing east"',
-    '"add House in the woods at 1000,1000 facing west"',
-    '"create a village with 5 cottages in a circle"',
-    '"build a racing track with hovercars"'
-  ];
 
   useEffect(() => {
     const interval = setInterval(() => {
