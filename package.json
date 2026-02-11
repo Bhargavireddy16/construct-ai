@@ -1,9 +1,9 @@
 {
-  "name": "3d-scene-generator",
+  "name": "construct-ai",
   "version": "1.0.0",
-  "description": "An Electron application with React",
+  "description": "Construct AI - The Neural Scene Synthesis Engine",
   "main": "./out/main/index.js",
-  "author": "example.com",
+  "author": "Bhargavi Guda",
   "homepage": "https://electron-vite.org",
   "scripts": {
     "format": "prettier --write .",

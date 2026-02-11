@@ -1,5 +1,5 @@
-appId: com.electron.app
-productName: 3d-scene-generator
+appId: com.constructai.app
+productName: Construct AI
 directories:
   buildResources: build
 files:
@@ -11,7 +11,7 @@ files:
 asarUnpack:
   - resources/**
 win:
-  executableName: 3d-scene-generator
+  executableName: construct-ai
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}

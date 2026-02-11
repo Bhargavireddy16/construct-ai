@@ -1,7 +1,7 @@
 {
-  "name": "gamelogic-marketing",
+  "name": "construct-ai-website",
   "version": "1.0.0",
-  "description": "Professional marketing site for GameLogic AI Scene Generator",
+  "description": "Professional marketing site for Construct AI Scene Generator",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
