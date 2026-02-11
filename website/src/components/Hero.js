@@ -43,7 +43,7 @@ const Hero = () => {
           transition={{ duration: 1 }}
         >
           <h1 className="text-7xl md:text-9xl font-bold bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-6 drop-shadow-2xl">
-            3DAI
+            Construct AI
           </h1>
         </motion.div>
 
@@ -135,7 +135,7 @@ const Hero = () => {
                 playsInline
                 controls
                 className="w-full h-auto rounded-2xl shadow-lg"
-                poster="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'><rect width='100%' height='100%' fill='%23111827'/><text x='50%' y='50%' text-anchor='middle' dy='.3em' fill='%236366f1' font-size='48' font-family='sans-serif'>🎮 3DAI Demo</text></svg>"
+                poster="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'><rect width='100%' height='100%' fill='%23111827'/><text x='50%' y='50%' text-anchor='middle' dy='.3em' fill='%236366f1' font-size='48' font-family='sans-serif'>🎮 Construct AI Demo</text></svg>"
               >
                 <source src="https://pub-41ecf353ea504834b5310a7d56b37182.r2.dev/2025-09-19_11-15-56.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
@@ -150,7 +150,7 @@ const Hero = () => {
               </div>
 
               <div className="absolute bottom-6 right-6 bg-black/70 backdrop-blur-sm rounded-lg px-4 py-2">
-                <span className="text-gray-300 text-sm">3DAI Scene Builder in Action</span>
+                <span className="text-gray-300 text-sm">Construct AI Scene Builder in Action</span>
               </div>
             </motion.div>
 
@@ -160,7 +160,7 @@ const Hero = () => {
               transition={{ delay: 1.3 }}
               className="text-center text-gray-400 mt-4 text-sm"
             >
-              Watch 3DAI create complex 3D scenes with natural language commands
+              Watch Construct AI create complex 3D scenes with natural language commands
             </motion.p>
           </div>
         </motion.div>
@@ -173,12 +173,12 @@ const Hero = () => {
           className="flex flex-col sm:flex-row gap-4 justify-center"
         >
           <motion.a
-            href="https://github.com/codyrutscher/AI-Scene-Generator"
+            href="https://github.com/Bhargavireddy16/construct-ai"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg hover:shadow-purple-500/25 transition-all duration-300"
           >
-            🚀 Try 3DAI Now
+            🚀 Try Construct AI Now
           </motion.a>
 
           <motion.button
