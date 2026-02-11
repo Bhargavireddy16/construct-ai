@@ -117,53 +117,7 @@ const Hero = () => {
           </motion.div>
         </motion.div>
 
-        {/* Demo Video */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 1, delay: 0.9 }}
-          className="mb-12"
-        >
-          <div className="max-w-4xl mx-auto">
-            <motion.div
-              whileHover={{ scale: 1.02 }}
-              className="relative bg-black/50 backdrop-blur-lg rounded-3xl p-4 border border-purple-500/30 shadow-2xl"
-            >
-              <video
-                autoPlay
-                loop
-                playsInline
-                controls
-                className="w-full h-auto rounded-2xl shadow-lg"
-                poster="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'><rect width='100%' height='100%' fill='%23111827'/><text x='50%' y='50%' text-anchor='middle' dy='.3em' fill='%236366f1' font-size='48' font-family='sans-serif'>🎮 Construct AI Demo</text></svg>"
-              >
-                <source src="https://pub-41ecf353ea504834b5310a7d56b37182.r2.dev/2025-09-19_11-15-56.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
 
-              {/* Video overlay */}
-              <div className="absolute top-6 left-6 bg-black/70 backdrop-blur-sm rounded-lg px-4 py-2">
-                <div className="flex items-center space-x-2">
-                  <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
-                  <span className="text-white text-sm font-medium">Live Demo</span>
-                </div>
-              </div>
-
-              <div className="absolute bottom-6 right-6 bg-black/70 backdrop-blur-sm rounded-lg px-4 py-2">
-                <span className="text-gray-300 text-sm">Construct AI Scene Builder in Action</span>
-              </div>
-            </motion.div>
-
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 1.3 }}
-              className="text-center text-gray-400 mt-4 text-sm"
-            >
-              Watch Construct AI create complex 3D scenes with natural language commands
-            </motion.p>
-          </div>
-        </motion.div>
 
         {/* CTA Buttons */}
         <motion.div
